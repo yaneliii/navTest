@@ -20,37 +20,42 @@
                     col-12">
 
                 <!-- Brand -->
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand d-flex align-items-center active" href="index.html">
+                    <a class="site-logo" href="index.html">HIIII</a>
+                    <a class="site-name link-hov" href="index.html"> <span>Yaneli Cestona</span> </a>
+                </a>
                 <!-- Responsive Button for the smaller menu -->
                 <button class="navbar-toggler" type="button"
                         data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <!-- Links -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link 1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-
-                        <!-- Dropdown -->
+                    <ul class="navbar-nav site-links bg-light">
+                        <!-- Dropdowns -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Explore-navbardrop"
                                data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Education
+                                Explore
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                                <a class="dropdown-item" href="#">Link 4</a>
+                                <a class="dropdown-item link-hov" href="explore/gallery.html">Gallery</a>
+                                <a class="dropdown-item link-hov" href="explore/inspirations.html">Inspirations</a>
                             </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Resource-navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Resources
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item link-hov" href="resources/mediums.html">Mediums</a>
+                                <a class="dropdown-item link-hov" href="resources/recommendations.html">Recommendations</a>
+                            </div>
+                        </li>
+
+                        <!-- Link -->
+                        <li class="nav-item">
+                            <a class="nav-link link-hov" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>

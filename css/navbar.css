@@ -24,13 +24,11 @@
     margin-left: 2px;
     width: 70px;
     height: 60px;
-    background-image: url("../img/dino_down.jpg");
     background-repeat: no-repeat;
     background-size: 3.5rem;
     transition: background-image;
 }
 .navbar:hover .site-logo {
-    background-image: url("../img/dino_up.jpg");
 }
 
 
