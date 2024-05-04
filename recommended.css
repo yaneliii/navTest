@@ -1,0 +1,247 @@
+/* DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 */
+
+/* the styles for the recommendations page */
+
+.all-rec-content {
+    padding-bottom: 10%;
+}
+
+.all-rows .rec-one-row {
+    margin-bottom: 4%;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #rec-title {
+        font-size: 45px !important;
+    }
+    .all-rows .rec-one-row .title {
+        font-size: 27px !important;
+    }
+    .footer .row:last-child {
+        margin-right: -4%;
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    .all-rec-content {
+        padding-bottom: 1%;
+    }
+    #rec-title {
+        font-size: 40px !important;
+    }
+    .all-rows .rec-one-row .title {
+        font-size: 25px !important;
+    }
+    .all-rows .rec-one-row .title-row {
+        margin-left: 160px;
+    }
+    .all-rows {
+        column-count: 2;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    #rec-title {
+        font-size: 40px !important;
+    }
+    .all-rows .rec-one-row .title {
+        font-size: 25px !important;
+    }
+    .all-rows .rec-one-row .title-row {
+        margin-left: 40px;
+    }
+    .all-rec-content {
+        padding-bottom: 1%;
+    }
+    .all-rows {
+        column-count: 2;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    #rec-title {
+        font-size: 35px !important;
+    }
+    .all-rows .rec-one-row .title {
+        font-size: 25px !important;
+    }
+    .all-rows .rec-one-row .title-row {
+        margin-left: -1px;
+    }
+    .all-rec-content {
+        padding-bottom: 1%;
+    }
+    .all-rows {
+        column-count: 2;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    .all-rows h5 {
+        font-size: 118% !important;
+    }
+    .all-rows p {
+        font-size: 98% !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .all-rows h5 {
+        font-size: 110% !important;
+    }
+    .all-rows p {
+        font-size: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .water-pad {
+        width: 16rem !important;
+    }
+    .bristol {
+        width: 16rem !important;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    #rec-title {
+        font-size: 32px !important;
+    }
+    .all-rec-content {
+        padding-bottom: 15%;
+    }
+    .all-rows .rec-one-row .title {
+        font-size: 23px !important;
+    }
+    .footer .row:last-child {
+        margin-right: -4%;
+    }
+    .all-rows h5 {
+        font-size: 102% !important;
+    }
+    .all-rows p {
+        font-size: 82% !important;
+    }
+    .water-pad {
+        width: 16rem !important;
+    }
+    .bristol {
+        width: 16rem !important;
+    }
+}
+
+@media only screen and (max-width: 521px) {
+    .water-pad {
+        width: 15rem !important;
+    }
+    .bristol {
+        width: 15rem !important;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .water-pad {
+        width: 16rem !important;
+    }
+    .bristol {
+        width: 16rem !important;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .all-rec-content {
+        padding-bottom: 25%;
+    }
+    .toned-pad img {
+        width: 14.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 498px) {
+    .toned-pad img {
+        width:  100% !important;
+    }
+    .water-pad {
+        width: 15rem !important;
+    }
+    .bristol {
+        width: 15rem !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .toned-pad img {
+        width: 14.35rem !important;
+    }
+    .water-pad {
+        width: 20rem !important;
+    }
+    .bristol {
+        width: 19rem !important;
+    }
+}
+
+@media only screen and (max-width: 471px) {
+    .toned-pad img {
+        width:  100% !important;
+    }
+}
+
+
+/*
+@media only screen and (max-width: 540px) {
+    #rec-title {
+        font-size: 32px !important;
+    }
+    .all-rows .rec-one-row .title {
+        font-size: 23px !important;
+    }
+    .footer .row:last-child {
+        margin-right: -4%;
+    }
+}
+*/
+
+
+@media only screen and (max-width: 450px) {
+    #rec-title {
+        font-size: 28px !important;
+    }
+    .all-rows .rec-one-row .title {
+        font-size: 22px !important;
+    }
+    .all-rows .rec-one-row .title-row{
+        /*margin-left: 80px;*/
+    }
+    .all-rec-content {
+        padding-bottom: 70px;
+    }
+    .all-rows {
+        column-count: 1;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    #rec-title {
+        font-size: 26px !important;
+    }
+    .all-rows .rec-one-row .title {
+        font-size: 20px !important;
+    }
+    .all-rows .rec-one-row .title-row{
+        /*margin-left: 100px;*/
+    }
+    .all-rec-content {
+        padding-bottom: 70px;
+    }
+    .all-rows {
+        column-count: 1;
+    }
+}
+
+
+

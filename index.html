@@ -1,99 +1,242 @@
+<!-- DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
+    <title>Yaneli's Art Blog</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
-
+    <link href="css/style_home.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="container-fluid">
+<div class="container-fluid site">
     <div class="row">
-            <nav class="navbar navbar-expand-md
-                    justify-content-start
-                    bg-dark navbar-dark
-                    col-12">
+        <nav class="navbar navbar-expand-md justify-content-start bg-light navbar-light col-12 ">
 
-                <!-- Brand -->
-                <a class="navbar-brand d-flex align-items-center active" href="index.html">
-                    <a class="site-logo" href="index.html">HIIII</a>
-                    <a class="site-name link-hov" href="index.html"> <span>Yaneli Cestona</span> </a>
-                </a>
-                <!-- Responsive Button for the smaller menu -->
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav site-links bg-light">
-                        <!-- Dropdowns -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Explore-navbardrop"
-                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Explore
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item link-hov" href="explore/gallery.html">Gallery</a>
-                                <a class="dropdown-item link-hov" href="explore/inspirations.html">Inspirations</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link link-hov dropdown-toggle" href="#" id="Resource-navbardrop"
-                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Resources
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item link-hov" href="resources/mediums.html">Mediums</a>
-                                <a class="dropdown-item link-hov" href="resources/recommendations.html">Recommendations</a>
-                            </div>
-                        </li>
+            <!-- Brand -->
+            <!--
+            <a class="navbar-brand d-flex align-items-center active" href="index.html">
+                <a class="site-logo" href="index.html"></a>
+                <a class="site-name link-hov" href="index.html"> <span>Yaneli Cestona</span> </a>
+            </a>
+            -->
+            <!-- Responsive Button for the smaller menu -->
+            <!--
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav site-links">
+               -->
+                    <!-- Dropdowns -->
+            <!--
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-hov dropdown-toggle" href="#" id="Explore-navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item link-hov" href="explore/gallery.html">Gallery</a>
+                            <a class="dropdown-item link-hov" href="explore/inspirations.html">Inspirations</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-hov dropdown-toggle" href="#" id="Resource-navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item link-hov" href="resources/mediums.html">Mediums</a>
+                            <a class="dropdown-item link-hov" href="resources/recommendations.html">Recommendations</a>
+                        </div>
+                    </li>
+                    -->
 
-                        <!-- Link -->
-                        <li class="nav-item">
-                            <a class="nav-link link-hov" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        <div class="row">
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
-        </div>
-    <div class="col-sm-4  text-center">
-        <h2>h2 Bootstrap heading (24px)</h2>
-        <h3>h2 Bootstrap heading (18px)</h3>
+                    <!-- Link -->
+            <!--
+                    <li class="nav-item">
+                        <a class="nav-link link-hov" href="contact.html">Contact</a>
+                    </li>
+                    -->
+                </ul>
+            </div>
+        </nav>
     </div>
+
 </div>
- <footer class="footer page-footer font-small ">
-     <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Art Hendela, 2021 |  Terms Of Use  |  Privacy Statement</span>
+
+<div class="home-body">
+    <main>
+
+        <h1 class="text-center my-4">Helloooooo Welcomee</h1>
+
+
+
+        <section id="cards" class="col-10 offset-1">
+            <div class="row card-deck d-flex flex-column flex-md-row justify-content-center">
+                <div class="container card1 col-3" style="width: 20rem;">
+                    <img class="card-img-top" src="cat.jpeg" alt="Bluey color roughs">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <div class="container card2 col-3" style="width: 20rem;">
+                    <img src="cig.jpeg" style="width: 22rem;" alt="Fan art of Ryuk from Death Note (painting)">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <section id="introduction-text" class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-10 mt-4" style="text-align: center;">
+                    <div class="art-paragraphs d-inline-block" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px;">
+                        <h1 class="listtt">Will you be my friend? :)</h1>
+                        <label class="container listtt">Yes
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container listtt">No
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <p style="color:rgba(255,255,255,0.82);" class="text-center fs-5 pt-3">p.s. text me ur answer</p>
+        </section>
+
+
+    </main>
+</div>
+
+</body>
+<style>
+    body {
+        background-image: url('sunse.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+<style>
+    .art-paragraphs {
+        background-color: rgba(255, 255, 255, 0.8); /* Adjust the color and opacity as needed */
+        padding: 20px; /* Optional: Add padding for better readability */
+    }
+    /* The container */
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* Hide the browser's default radio button */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    /* Create a custom radio button */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 50%;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    /* When the radio button is checked, add a blue background */
+    .container input:checked ~ .checkmark {
+        background-color: #2196F3;
+    }
+
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the indicator (dot/circle) when checked */
+    .container input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the indicator (dot/circle) */
+    .container .checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+    }
+</style>
+
+<div>
+    <footer class="footer page-footer font-small">
+        <div class="container">
+            <!--
+            <div class="row">
+                <div><a>&copy; Yaneli Cestona, 2024</a></div>
+                <div><a class="link-hov" href="../tos.html">Terms Of Use</a></div>
+                <div><a class="link-hov" href="../privacy.html">Privacy Statement</a></div>
+            </div>
+            -->
         </div>
-     </div>
-  </footer>
+    </footer>
 </div>
 
 
-    <!-- Javascript Bundle with Popper -->
+
+<!-- Javascript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">
 </script>
 
-</body>
+
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        let scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+
+
 </html>

@@ -1,172 +1,271 @@
 /* DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 */
 
-/* the styles for nav */
-.navbar {
-    position: fixed;
-    width: 100%;
-    background-color: white !important;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    z-index: 3;
-}
-.navbar-toggler {
-    margin-left: auto !important;
-    margin-right: 16px;
-}
-.navbar-collapse {
-    background-color: white;
+/* the styles for the home page */
+
+.home-body {
+    padding-bottom: 10%;
 }
 
-
-.site-logo {
-    padding-top: unset;
-    padding-bottom: unset;
-    margin-left: 2px;
-    width: 70px;
-    height: 60px;
-    background-repeat: no-repeat;
-    background-size: 3.5rem;
-    transition: background-image;
-}
-.navbar:hover .site-logo {
+/* the styles for the cards */
+#cards {
+    text-align: center;
+    padding: 30px 0;
 }
 
-
-.site-name {
-    font-family: Noi Grotesk, sans-serif;
-    font-size: calc(15px + 0.390625vw);
-    color: black;
-    padding: 0 13px 0 5px;
-    text-decoration: none;
-    float: none;
+/* the styles for the jumbotron */
+.jumbo a {
+    font-size: calc(5px + 1vw);
 }
 
+/* the styles for the paragraphs */
+.art-paragraphs {
+    text-indent: 70px;
+    font-size: calc(5px + 0.7vw) !important;
+}
+.work-cited {
+    font-size: calc(13px + 0.1vw) !important;
 
-.under-nav {
-    padding-top: 40px;
-    margin-top: 30px;
-}
-.num-col {
-    padding-top: 30px;
-}
-
-
-.link-hov:hover {
-    color: #FF5841 !important;
-}
-.btn-primary:hover {
-    background: #0d6efd;
-    color: #FF5841;
-}
-.btn-outline-secondary:hover {
-    background: rgba(178, 178, 178, 0.15);
-    color: #FF5841;
-}
-
-
-.site-links {
-    font-family: Noi Grotesk, sans-serif;
-    font-size: 18px;
-    margin-left: auto !important;
-    /*padding-right: 16px;*/
-}
-.site-links li {
-    padding-right: 35px;
-}
-.site-links li a {
-    font-weight: bold;
-    color: black !important;
-}
-
-.site-links li:last-child {
-    padding-right: 16px;
-}
-
-
-/* the styles for elements directly under nav */
-.under-nav {
-    padding-top: 40px;
-    margin-top: 30px;
-}
-.top-body {
-    padding-top: 30px;
-}
-
-
-/* the styles for progress bar */
-.scroll-header {
-    position: fixed;
-    /*top: 20px;*/
-    z-index: 2;
-    width: 100%;
-    background-color: #f1f1f1;
-}
-.progress-container {
-    width: 100%;
-    height: 8px;
-    background: #ccc;
-}
-/* scroll indicator */
-.progress-bar {
-    height: 8px;
-    background: #C53678;
-    width: 0;
 }
 
 
 
+@media only screen and (max-width: 1900px) {
+    .card-text {
+        font-size: calc(5px + 0.7vw);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .card-deck #card-text1 {
+        font-size: calc(5px + 1.3vw) !important;
+    }
+    .card-deck #card-text2 {
+        font-size: calc(5px + 1.3vw) !important;
+    }
+    .card-deck #card-text3 {
+        font-size: calc(5px + 1.3vw) !important;
+    }
+    .art-paragraphs {
+        text-indent: 70px;
+        font-size: calc(13px + 0.1vw) !important;
+    }
+}
 
 @media only screen and (max-width: 1050px) {
-    .site-links {
-        font-size: 120%;
+    .jumbo {
+        max-width: 900px;
+    }
+    .jumbo h1 {
+        font-size: calc(5px + 2.6vw);
+    }
+    .jumbo p {
+        font-size: calc(5px + 2vw) !important;
+    }
+    .card-deck {
+        max-width: 860px;
+    }
+    .footer .row:last-child {
+        margin-right: -4%;
     }
 }
 
-@media only screen and (max-width: 880px) {
-    .navbar {
-        padding-bottom: 6px;
+@media only screen and (max-width: 850px) {
+    .home-body h5 {
+        font-size: 118% !important;
     }
+}
 
-    .site-links {
-        font-size: 110%;
+@media only screen and (max-width: 830px) {
+    .card-deck #card-text1 {
+        font-size: calc(5px + 1.4vw) !important;
+    }
+    .card-deck #card-text2 {
+        font-size: calc(5px + 1.4vw) !important;
+    }
+    .card-deck #card-text3 {
+        font-size: calc(5px + 1.4vw) !important;
     }
 }
 
 @media only screen and (max-width: 770px) {
-    .navbar {
-        height: 70px;
-        padding-bottom: 5px;
+    .home-body {
+        padding-bottom: 15%;
     }
 }
 
-@media only screen and (max-width: 750px) {
-    .navbar {
-        padding-bottom: 15px;
+@media only screen and (max-width: 760px) {
+    .home-body h5 {
+        font-size: calc(14px + 1vw) !important;
+    }
+    .jumbo {
+        max-width: 700px;
+    }
+    .jumbo a {
+        font-size: calc(10px + 0.8vw);
+    }
+    .card-deck {
+        max-width: 680px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .home-body .card-deck h5 {
+        font-size: calc(14px + 0.9vw) !important;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card-deck #card-text1 {
+        font-size: calc(14px + 0.5vw) !important;
+    }
+    .card-deck #card-text2 {
+        font-size: calc(14px + 0.5vw) !important;
+    }
+    .card-deck #card-text3 {
+        font-size: calc(14px + 0.5vw) !important;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .home-body h5 {
+        font-size: 108% !important;
+    }
+
+}
+
+@media only screen and (max-width: 615px) {
+    .home-body h5 {
+        font-size: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .jumbo h1 {
+        font-size: calc(15px + 1vw);
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .home-body h5 {
+        font-size: 93% !important;
+    }
+
+}
+
+@media only screen and (max-width: 495px) {
+    .home-body h5 {
+        font-size: 88% !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .home-body h5 {
+        font-size: 83% !important;
+    }
+    .jumbo p {
+        font-size: calc(12px + 0.8vw) !important;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .home-body {
+        padding-bottom: 25%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .home-body h5 {
+        font-size: 75% !important;
+    }
+    .card-deck #card-text1 {
+        font-size: calc(13px + 0.5vw) !important;
+    }
+    .card-deck #card-text2 {
+        font-size: calc(13px + 0.5vw) !important;
+    }
+    .card-deck #card-text3 {
+        font-size: calc(13px + 0.5vw) !important;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .jumbo a {
+        font-size: calc(12px + 0.3vw);
+    }
+    #cards {
+        padding: 15px 0 !important;
     }
 }
 
 
-@media only screen and (max-width: 330px) {
-    .site-name {
-        font-size: calc(5px + 2.6vw);
+
+@media only screen and (max-width: 332px) {
+    .jumbo a {
+        font-size: calc(10px + 0.1vw);
     }
 }
 
+@media only screen and (max-width: 305px) {
+    .jumbo a {
+        font-size: calc(8px + 0.3vw);
+    }
+}
 
 @media only screen and (max-width: 300px) {
-    .site-name {
-        font-size: calc(5px + 2vw);
+    .jumbo-btns div {
+        gap: 15px !important;
     }
-    .navbar-toggler {
-        width: 11vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 1.3vw;
+    .jumbo .btn-primary {
+        /*font-size: 2.4vw;*/
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
+    .jumbo .btn-outline-secondary {
+        /*font-size: 2.4vw;*/
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
 
-    .navbar-toggler-icon {
-        width: 1.5em;
-        margin: 0;
+@media only screen and (max-width: 281px) {
+    .jumbo a {
+        font-size: calc(10px + 0.5vw);
+    }
+}
+
+@media only screen and (max-width: 278px) {
+    .jumbo a {
+        font-size: calc(8px + 0.5vw);
+    }
+}
+
+@media only screen and (max-width: 225px) {
+    .jumbo-btns div {
+        gap: 15px !important;
+    }
+    .jumbo .btn-primary {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .jumbo .btn-outline-secondary {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .jumbo-btns div {
+        gap: 15px !important;
+    }
+    .jumbo .btn-primary {
+        font-size: 2.2vw;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .jumbo .btn-outline-secondary {
+        font-size: 2.2vw;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 }

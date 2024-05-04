@@ -1,0 +1,273 @@
+<!-- DEVELOPER: Yaneli Cestona, IS117-102, Spring 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yaneli's Art Blog</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../css/footer.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+    <link href="../css/style_rec.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row navigation">
+        <nav class="navbar navbar-expand-md justify-content-start bg-light navbar-light col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand d-flex align-items-center active" href="../index.html">
+                <a class="site-logo" href="../index.html"></a>
+                <a class="site-name link-hov" href="../index.html"> <span>Yaneli Cestona</span> </a>
+            </a>
+
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav site-links">
+                    <!-- Dropdowns -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-hov dropdown-toggle" href="#" id="Explore-navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Explore
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item link-hov" href="../explore/gallery.html">Gallery</a>
+                            <a class="dropdown-item link-hov" href="../explore/inspirations.html">Inspirations</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-hov dropdown-toggle" href="#" id="Resource-navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item link-hov" href="../resources/mediums.html">Mediums</a>
+                            <a class="dropdown-item link-hov" href="../resources/recommendations.html">Recommendations</a>
+                        </div>
+                    </li>
+
+                    <!-- Link -->
+                    <li class="nav-item">
+                        <a class="nav-link link-hov" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row under-nav">
+        <div class="scroll-header">
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="rec-body">
+    <main>
+        <div class="all-rec-content">
+            <div class="rec-title col-sm-12  text-center pt-3">
+                <h1 id="rec-title" style="font-size: 50px">Recommendations</h1>
+            </div>
+
+            <!--
+            <div class="container text-row mt-4">
+                <div class="row rec-para justify-content-center">
+                    <div class="col-12">
+                        <p id="para" class="intro-para">
+                            Acrylic paint is a versatile and widely used material; it is known for its opaque vibrant colors and easy blending.
+                            However, it has a short drying time which gives the artist less time to work with the paint. Fortunately,
+                            you can just add a retarding medium to your paint that allows it to remain wet for longer. This gives artists more time
+                            to use the paint and even improves blending. You even work with its quick-drying instead of against it by using it
+                            to create layers or textures - as it dries with a durable, non-cracking finish. Additionally, acrylic paint can be mixed
+                            with other materials like water for a watercolor-like effect. Acrylics also adhere well to several types of surfaces,
+                            including canvas, paper, wood, etc., making them popular among artists of all levels. Overall, it is a great medium for
+                            beginners as they can attempt different painting techniques, and change the thickness of it, and generally cheaper.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            -->
+
+            <div class="container all-rows mt-4">
+                <div class="row rec-one-row d-flex flex-column flex-md-row justify-content-center">
+                    <div class="title-row offset-1">
+                        <!-- <h3 class="title" style="font-size: 30px">Gallery</h3> -->
+                    </div>
+                    <div class="container col-3 card-col mb-2" style="width: 20rem;">
+                        <img class="card-img-top pt-4 pb-3" src="../img/rec_art/dsmith2.jpeg" alt="Daniel Smith Extra Fine Watercolor Tubes">
+                        <div class="card-body">
+                            <h5 class="card-title pt-2">Daniel Smith Watercolor</h5>
+                            <p class="card-text mt-3">
+                                Fig. 4. Daniel Smith Extra Fine Watercolor Tubes
+                                <br>
+                                <br>
+                                Blick. “Daniel Smith Extra Fine Watercolor Tubes and Sets.” Blick, www.dickblick.com/<br>products/daniel-smith-extra-fine-watercolors.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container col-3 card-col mb-2" style="width: 20rem;">
+                        <img class="card-img-top pt-3 pb-2" src="../img/rec_art/copic.jpeg" alt="Copic Sketch Markers">
+                        <div class="card-body">
+                            <h5 class="card-title">Copic Sketch Markers</h5>
+                            <p class="card-text mt-3">
+                                Fig. 5. Copic Sketch Markers
+                                <br>
+                                <br>
+                                Blick. “Copic Sketch Markers and Sets.” Blick, www.dickblick.com/products/<br>copic-sketch-markers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container col-3 card-col mb-2 prisma" style="width: 20rem;">
+                        <img class="card-img-top pt-2 pb-2 w-75" src="../img/rec_art/prismaa.jpeg" alt="Prismacolor Premier Colored Pencils" style="margin: 0 auto; display: block;">
+                        <div class="card-body">
+                            <h5 class="card-title">Prismacolor</h5>
+                            <p class="card-text mt-3">
+                                Fig. 6. Prismacolor Premier Colored Pencils
+                                <br>
+                                <br>
+                                Block. “Prismacolor Premier Colored Pencils and Sets.” Blick, www.dickblick.com/products/<br>prismacolor-premier-colored-pencils/
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row rec-one-row d-flex flex-column flex-md-row justify-content-center">
+                    <div class="title-row offset-1">
+                        <!-- <h3 class="title" style="font-size: 30px">Gallery</h3> -->
+                    </div>
+                    <div class="container col-3 card-col mb-2 water-pad" style="width: 20rem;">
+                        <img class="card-img-top" src="../img/rec_art/st_watercolor.jpeg" alt="Strathmore 300 Series Watercolor Pad">
+                        <div class="card-body">
+                            <h5 class="card-title">Strathmore 300 Series Watercolor Pad</h5>
+                            <p class="card-text mt-3">
+                                Fig. 7. Strathmore 300 Series Watercolor Pad
+                                <br>
+                                <br>
+                                Blick. “Strathmore 300 Series Watercolor Pad.” Blick, www.dickblick.com/items/<br>strathmore-300-series-watercolor-pad-9-x-12-cold-press-tapebound.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container col-3 card-col mb-2 bristol" style="width: 19rem;">
+                        <img class="card-img-top pt-2 pb-1" src="../img/rec_art/st_bristol.jpeg" alt="Strathmore 300 Series Bristol Pad">
+                        <div class="card-body">
+                            <h5 class="card-title">Strathmore 300 Series Bristol Pad</h5>
+                            <p class="card-text mt-3">
+                                Fig. 8. Strathmore 300 Series Bristol Pad
+                                <br>
+                                <br>
+                                Blick. “Strathmore 300 Series Bristol Pad.” Bristol, www.dickblick.com/items/<br>strathmore-300-series-bristol-pad-9-x-12-smooth-20-sheets.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container col-3 card-col toned-pad" style="width: 21rem;">
+                        <img class="card-img-top pt-2 pb-2" src="../img/rec_art/st_toned.jpeg" alt="Strathmore 400 Series Toned">
+                        <div class="card-body">
+                            <h5 class="card-title">Strathmore 400 Series Toned</h5>
+                            <p class="card-text mt-3">
+                                Fig. 9. Strathmore 400 Series Recycled Toned Sketch Pad
+                                <br>
+                                <br>
+                                Blick4. “Strathmore 400 Series Recycled Toned Sketch.” Blick, www.dickblick.com/products/<br>strathmore-400-series-recycled-toned-sketch-wirebound-pads.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row rec-one-row d-flex flex-column flex-md-row justify-content-center">
+                    <div class="title-row offset-1">
+                        <!-- <h3 class="title" style="font-size: 30px">Gallery</h3> -->
+                    </div>
+                    <div class="container col-3 card-col mb-2" style="width: 20rem;">
+                        <img class="card-img-top pt-1" src="../img/rec_art/morpho1.jpeg" alt="Art book: Morpho: Simplified Forms">
+                        <div class="card-body">
+                            <h5 class="card-title">Morpho: Simplified Forms</h5>
+                            <p class="card-text mt-3">
+                                Fig. 1. Cover of the book <cite>Morpho: Simplified Forms</cite>
+                                <br>
+                                <br>
+                                Lauricella, Michel. “Morpho: Simplified Forms: Anatomy for Artists.” Anatomy Lecture, 2019,
+                                anatomylecture.com/product/<br>morpho-simplified-forms-anatomy-for-artists-morpho-anatomy-for-artists-2.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container col-3 card-col" style="width: 20rem;">
+                        <img class="card-img-top pt-2 pb-2" src="../img/rec_art/morpho2.jpeg" alt="Art book: Morpho: Hands and Feet">
+                        <div class="card-body">
+                            <h5 class="card-title">Morpho: Hands and Feet</h5>
+                            <p class="card-text mt-3">
+                                Fig. 2. Cover of the book <cite>Morpho: Hands and Feet</cite>
+                                <br>
+                                <br>
+                                Lauricella, Michel. “Morpho: Hands and Feet: Anatomy for Artists.” Anatomy Lecture, 2019,
+                                anatomylecture.com/product/<br>morpho-hands-and-feet-anatomy-for-artists-morpho-anatomy-for-artists-5.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="container col-3 card-col" style="width: 20rem;">
+                        <img class="card-img-top pt-3 pb-2" src="../img/rec_art/spaway_book.png" alt="Art book: The Art of Spirited Away">
+                        <div class="card-body">
+                            <h5 class="card-title">The Art of Spirited Away</h5>
+                            <p class="card-text mt-3">
+                                Fig. 3. Cover of the book <cite>The Art of Spirited Away</cite>
+                                <br>
+                                <br>
+                                Miyazaki, Hayao. “The Art of Spirited Away.” Viz, 25 Aug. 2002, www.viz.com/read/art-book/art-of-spirited-away/product/4743.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<div>
+    <footer class="footer page-footer font-small">
+        <div class="container">
+            <!--
+            <div class="row">
+                <div><a>&copy; Yaneli Cestona, 2024</a></div>
+                <div><a class="link-hov" href="../tos.html">Terms Of Use</a></div>
+                <div><a class="link-hov" href="../privacy.html">Privacy Statement</a></div>
+            </div>
+            -->
+        </div>
+    </footer>
+</div>
+
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+
+<script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+    }
+</script>
+
+
+</body>
+</html>
